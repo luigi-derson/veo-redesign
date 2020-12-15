@@ -3,7 +3,7 @@
 Review the current live [Veo homepage](https://veo.world):
 
 - [x] Design (using tools of your choice) an updated version of the homepage. Document the reasons for any changes.
-- [] Develop a simple html/css page based on the design in step 1.
+- [ ] Develop a simple html/css page based on the design in step 1.
 
 Tasks notes:
 
