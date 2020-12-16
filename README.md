@@ -16,4 +16,10 @@ Tasks notes:
 
 #### Reasons for the changes:
 
-- First reason
+- General design changes: I have used a more direct and minimalistic style for all the look of the page. I kept brand colors but changed primary font to [Karla](https://fonts.google.com/specimen/Karla) because I find this font family more user friendly and less common than Open Sans.
+- Navigation: I have removed search bar to make navigation bar more cleaner, search functionality will be there altough when you click in the search icon.
+- I have changed icons package to some ones that are more up to date with current design trends. The icons from company values were placed as simple icons for development speed and protoyping reasons.
+- I have removed some sections that link to other pages and show them in navigation menu. I find this better as you will always have the option to go to different pages without having to scroll down the page.
+- I have highlighted recommendations section because I think it is important in order to capture the user attention in these products.
+- I have changed the way we display all products. Grouping them by it's respective categories. This way the user dont have to scroll down to see different products, it will be easier for them only to select the category they are interested on.
+- Product image shows like and shoping cart icon on hover. This way we can save a bit of space in the page and I think it's a nice feature.
