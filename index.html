@@ -3,302 +3,453 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Veo.</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Products</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-        </ul>
-        <div>
-          <img src="asssets/Veo-logo-138.png" alt="Veo Logo" />
-        </div>
-        <ul>
-          <li>
-            <a href="#">
-              <img src="asssets/icons/dollar-sign.svg" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="asssets/icons/shopping-cart.svg" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="asssets/icons/search.svg" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="asssets/icons/user.svg" alt="" />
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="navigation">
+          <ul class="navigation-menu">
+            <li class="navigation-menu__item">
+              <a href="#">Home</a>
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#">Products</a>
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#">About</a>
+            </li>
+          </ul>
+          <div class="navigation-logo">
+            <img src="asssets/Veo-logo-138.png" alt="Veo Logo" />
+          </div>
+          <ul class="navigation-menu">
+            <li class="navigation-menu__item">
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-dollar-sign"
+                >
+                  <line x1="12" y1="1" x2="12" y2="23"></line>
+                  <path
+                    d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-shopping-cart"
+                >
+                  <circle cx="9" cy="21" r="1"></circle>
+                  <circle cx="20" cy="21" r="1"></circle>
+                  <path
+                    d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-search"
+                >
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </a>
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-user"
+                >
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <div>
-          <h1>SUSTAINABLE LUXURY, AND ECO ESSENTIALS.</h1>
-          <h2>SHOP EARTH FRIENDLY BRANDS ON VEO.</h2>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero__title">SUSTAINABLE LUXURY, AND ECO ESSENTIALS.</h1>
+          <h2 class="hero__subtitle">
+            SHOP EARTH FRIENDLY BRANDS ON
+            <span class="subtitle__highlight">VEO.</span>
+          </h2>
         </div>
       </section>
       <section>
-        <div class="company-values">
-          <div class="company-values__item">
-            <img src="asssets/icons/star.svg" alt="Star" />
-            <h4>First Value</h4>
-            <p>Lorem ipsum dolor</p>
-          </div>
-          <div class="company-values__item">
-            <img src="asssets/icons/heart.svg" alt="Star" />
-            <h4>First Value</h4>
-            <p>Lorem ipsum dolor</p>
-          </div>
-          <div class="company-values__item">
-            <img src="asssets/icons/feather.svg" alt="Star" />
-            <h4>First Value</h4>
-            <p>Lorem ipsum dolor</p>
+        <div class="container">
+          <div class="company-values">
+            <div class="company-values__item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-star"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <div class="item-info">
+                <h4>First Value</h4>
+                <p>Lorem ipsum dolor</p>
+              </div>
+            </div>
+            <div class="company-values__item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-heart"
+              >
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                ></path>
+              </svg>
+              <div class="item-info">
+                <h4>First Value</h4>
+                <p>Lorem ipsum dolor</p>
+              </div>
+            </div>
+            <div class="company-values__item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-feather"
+              >
+                <path
+                  d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"
+                ></path>
+                <line x1="16" y1="8" x2="2" y2="22"></line>
+                <line x1="17.5" y1="15" x2="9" y2="15"></line>
+              </svg>
+              <div class="item-info">
+                <h4>First Value</h4>
+                <p>Lorem ipsum dolor</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <section class="recommendations-section">
-        <div>Our Recommedations</div>
-        <div class="products-list">
-          <div class="product">
-            <div class="product-card">
-              <div class="product-card__actions">
-                <img src="asssets/icons/heart.svg" alt="Heart" />
-                <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+        <div class="container">
+          <div class="recommendations__title">Our Recommedations</div>
+          <div class="products-list">
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
               </div>
             </div>
-            <div class="product-info">
-              <div class="product__name">Product Name</div>
-              <div class="product__brand">Provider</div>
-              <div class="product__price">£ 20.00</div>
-            </div>
-          </div>
-          <div class="product">
-            <div class="product-card">
-              <div class="product-card__actions">
-                <img src="asssets/icons/heart.svg" alt="Heart" />
-                <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
               </div>
             </div>
-            <div class="product-info">
-              <div class="product__name">Product Name</div>
-              <div class="product__brand">Provider</div>
-              <div class="product__price">£ 20.00</div>
-            </div>
-          </div>
-          <div class="product">
-            <div class="product-card">
-              <div class="product-card__actions">
-                <img src="asssets/icons/heart.svg" alt="Heart" />
-                <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
               </div>
             </div>
-            <div class="product-info">
-              <div class="product__name">Product Name</div>
-              <div class="product__brand">Provider</div>
-              <div class="product__price">£ 20.00</div>
-            </div>
-          </div>
-          <div class="product">
-            <div class="product-card">
-              <div class="product-card__actions">
-                <img src="asssets/icons/heart.svg" alt="Heart" />
-                <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
               </div>
-            </div>
-            <div class="product-info">
-              <div class="product__name">Product Name</div>
-              <div class="product__brand">Provider</div>
-              <div class="product__price">£ 20.00</div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section class="products-section">
-        <ul class="product-categories">
-          <li class="product__category">Fashion & Apparel</li>
-          <li class="product__category">Food & Drink</li>
-          <li class="product__category">Health & Beauty</li>
-          <li class="product__category">Home & Leisure</li>
-          <li class="product__category">
-            <img src="asssets/icons/search.svg" alt="Search" />
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="product-categories">
+            <li class="product__category active">Fashion & Apparel</li>
+            <li class="product__category">Food & Drink</li>
+            <li class="product__category">Health & Beauty</li>
+            <li class="product__category">Home & Leisure</li>
+            <li class="product__category">
+              <img src="asssets/icons/search.svg" alt="Search" />
+            </li>
+          </ul>
+          <div class="category-description">
+            <p>
+              Always slow fashion, never fast unique, statement, sustainable
+              brands, organic, eco, fair wear, vegan.
+            </p>
+          </div>
+          <div class="products-list">
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product-card">
+                <div class="product-card__actions">
+                  <img src="asssets/icons/heart.svg" alt="Heart" />
+                  <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product__name">Product Name</div>
+                <div class="product__brand">Provider</div>
+                <div class="product__price">£ 20.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="show-more">
+            <div class="container">
+              <a href="#">
+                Show more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-plus"
+                >
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
-      <div class="category-description">
-        <p>
-          Always slow fashion, never fast unique, statement, sustainable brands,
-          organic, eco, fair wear, vegan.
-        </p>
-      </div>
-      <div class="products-list">
-        <div class="product">
-          <div class="product-card">
-            <div class="product-card__actions">
-              <img src="asssets/icons/heart.svg" alt="Heart" />
-              <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product__name">Product Name</div>
-            <div class="product__brand">Provider</div>
-            <div class="product__price">£ 20.00</div>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-card">
-            <div class="product-card__actions">
-              <img src="asssets/icons/heart.svg" alt="Heart" />
-              <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product__name">Product Name</div>
-            <div class="product__brand">Provider</div>
-            <div class="product__price">£ 20.00</div>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-card">
-            <div class="product-card__actions">
-              <img src="asssets/icons/heart.svg" alt="Heart" />
-              <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product__name">Product Name</div>
-            <div class="product__brand">Provider</div>
-            <div class="product__price">£ 20.00</div>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-card">
-            <div class="product-card__actions">
-              <img src="asssets/icons/heart.svg" alt="Heart" />
-              <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product__name">Product Name</div>
-            <div class="product__brand">Provider</div>
-            <div class="product__price">£ 20.00</div>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-card">
-            <div class="product-card__actions">
-              <img src="asssets/icons/heart.svg" alt="Heart" />
-              <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product__name">Product Name</div>
-            <div class="product__brand">Provider</div>
-            <div class="product__price">£ 20.00</div>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-card">
-            <div class="product-card__actions">
-              <img src="asssets/icons/heart.svg" alt="Heart" />
-              <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product__name">Product Name</div>
-            <div class="product__brand">Provider</div>
-            <div class="product__price">£ 20.00</div>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-card">
-            <div class="product-card__actions">
-              <img src="asssets/icons/heart.svg" alt="Heart" />
-              <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product__name">Product Name</div>
-            <div class="product__brand">Provider</div>
-            <div class="product__price">£ 20.00</div>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-card">
-            <div class="product-card__actions">
-              <img src="asssets/icons/heart.svg" alt="Heart" />
-              <img src="asssets/icons/shopping-cart.svg" alt="Cart" />
-            </div>
-          </div>
-          <div class="product-info">
-            <div class="product__name">Product Name</div>
-            <div class="product__brand">Provider</div>
-            <div class="product__price">£ 20.00</div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <span>
-          Show more
-          <img src="asssets/icons/plus.svg" alt="Plus" />
-        </span>
-      </div>
     </main>
     <footer>
-      <div class="footer__menu">
-        <div class="footer__section">
-          <h6>Veo.</h6>
-          <ul class="section__list">
-            <li class="list__item">Products</li>
-            <li class="list__item">Blog</li>
-            <li class="list__item">About</li>
-          </ul>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer__menu">
+            <div class="footer__section">
+              <h6>Veo.</h6>
+              <ul class="section__list">
+                <li class="list__item">Products</li>
+                <li class="list__item">Blog</li>
+                <li class="list__item">About</li>
+              </ul>
+            </div>
+            <div class="footer__section">
+              <h6>Help</h6>
+              <ul class="section__list">
+                <li class="list__item">Contact Us</li>
+                <li class="list__item">Faqs</li>
+                <li class="list__item">Press & Media</li>
+              </ul>
+            </div>
+            <div class="footer__section">
+              <h6>Contact</h6>
+              <ul class="section__list">
+                <li class="list__item">Facebook</li>
+                <li class="list__item">Instagram</li>
+                <li class="list__item">Twitter</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__sponsors">
+            <div class="sponsor__logo"></div>
+            <div class="sponsor__logo"></div>
+            <div class="sponsor__logo"></div>
+            <div class="sponsor__logo"></div>
+            <div class="sponsor__logo"></div>
+            <div class="sponsor__logo"></div>
+          </div>
         </div>
-        <div class="footer__section">
-          <h6>Help</h6>
-          <ul class="section__list">
-            <li class="list__item">Contact Us</li>
-            <li class="list__item">Faqs</li>
-            <li class="list__item">Press & Media</li>
-          </ul>
+        <div class="footer__copy">
+          Copyright 2020 Veo Built with ♥. All rights reserved.
         </div>
-        <div class="footer__section">
-          <h6>Contact</h6>
-          <ul class="section__list">
-            <li class="list__item">Facebook</li>
-            <li class="list__item">Instagram</li>
-            <li class="list__item">Twitter</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-sponsors">
-        <div class="sponsor-logo"></div>
-        <div class="sponsor-logo"></div>
-        <div class="sponsor-logo"></div>
-        <div class="sponsor-logo"></div>
-        <div class="sponsor-logo"></div>
-        <div class="sponsor-logo"></div>
-      </div>
-      <div class="footer__copy">
-        Copyright 2020 Veo Built with ♥. All rights reserved.
       </div>
     </footer>
   </body>

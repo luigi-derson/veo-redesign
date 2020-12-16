@@ -1,1 +1,12 @@
 $nav-height: 80px;
+$container-xl: 1140px;
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+  max-width: $container-xl;
+  margin: 0 auto;
+}
